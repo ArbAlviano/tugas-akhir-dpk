@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <main>
+        <div class="login-card">
+            <div class="kiri">
+            <h2>Login</h2>
+                <form action="/tugasahir/home.html" method="get">
+                    <input type="text" id="username" placeholder="Username...">
+                    <input type="password" id="password" placeholder="Password...">
+
+                    <div class="registforgot">
+                        <div class="register">
+                            <a href="regist.html">Dont have acccount? Register</a>
+                        </div>
+
+                        <div class="forgot">
+                            <a href="forgot.html">Forgot password?</a>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="LoginPage(event)">Login</button>
+                </form>
+            </div>
+                
+            <div class="kanan">
+                <div id="fotocard"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
