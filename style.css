@@ -110,7 +110,7 @@ input[type="password"]
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-button[type="button"] {
+.button-login {
     padding: 16px;
     border-radius: 12px;
     border: none;
@@ -118,7 +118,7 @@ button[type="button"] {
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
     color: white;
     width: 85%;
     font-size: 16px
