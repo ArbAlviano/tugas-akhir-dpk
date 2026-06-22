@@ -11,7 +11,7 @@ function LoginPage(event) {
     if (usernameInput === "user" && passwordInput === "1234") {
         console.log("berhasil");
         alert("Login Berhasil! Selamat datang, user.");
-        window.location.href = "/tugasahir/home.html"; 
+        window.location.href = "home.html"; 
     } else if (usernameInput === "" || passwordInput === "") {
         alert("Harap isi semua kolom Username dan Password!");
         console.log("isi semua kolom");
